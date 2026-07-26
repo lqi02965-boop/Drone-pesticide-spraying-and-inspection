@@ -1,0 +1,8 @@
+path: ./datasets
+train: train/images
+val: val/images
+
+nc: 2
+names:
+  0: 'corn'   # 代表玉米（地面植株/航拍）
+  1: 'wheat'  # 代表小麦（麦穗/航拍）
